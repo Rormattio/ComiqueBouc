@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_pager_list"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.guillaume.aurore.comiquebouc.ReaderActivity"
+    android:orientation="vertical">
+
+
+        <com.guillaume.aurore.comiquebouc.TouchImageView style="?android:textAppearanceMedium"
+            android:id="@+id/trololo"
+            android:src="@mipmap/chargement"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:contentDescription="page" />
+
+        <ImageView
+            android:id="@+id/jap_chgt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/jap_chg"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?android:selectableItemBackground"
+            android:layout_alignRight="@id/trololo">
+
+
+                <ImageView
+                    android:id="@+id/tab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tab"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="right"/>
+                    </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:background="@color/transp"
+            android:layout_alignBottom="@id/trololo"
+            app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+                <ImageView
+                    android:id="@+id/goLeft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:src="@drawable/go_to_left"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="30dp" />
+
+                <TextView android:id="@+id/text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_centerInParent="true"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/app_name"
+                    />
+
+                <ImageView
+                    android:id="@+id/goRight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:src="@drawable/go_to_right"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="30dp" />
+
+        </RelativeLayout>
+
+</RelativeLayout>

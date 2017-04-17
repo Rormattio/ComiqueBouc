@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00A58F</color>
+    <color name="colorPrimaryDark">#008775</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="text">#454545</color>
+    <color name="bgRose">#FE9C88</color>
+    <color name="transp">#5036A193</color>
+    <color name="bgBleu">#E2F4F2</color>
+    <color name="fbouton">#DB1C1C</color>
+    <color name="bgBlanc">#FFFFFF</color>
+
+</resources>

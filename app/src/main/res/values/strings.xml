@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Comique Bouc</string>
+    <string name="welcome_message">Bienvenue dans Comique Bouc, que voulez-vous lire aujourd\'hui ?</string>
+    <string name="last_read_title">Dernière lecture :</string>
+    <string name="new_file">Nouveau fichier</string>
+    <string name="find_file">Parcourir</string>
+    <string name="charge">Chargement de la page...</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
+    <string name="dialog_message">Voulez-vous retirer %s de votre bibliothèque ?</string>
+    <string name="dialog_title">Retirer le livre</string>
+    <string name="delete">Retirer</string>
+    <string name="cancel">Annuler</string>
+    <string name="zip_reader_tag">ZipReader</string>
+    <string name="start_extraction">Extraction en cours de la page </string>
+    <string name="nb_of_read_pages">%1$d pages lues sur %2$d</string>
+</resources>
