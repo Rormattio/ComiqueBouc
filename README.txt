@@ -3,4 +3,4 @@ Sauvegarde la lecture jusqu'à 3 livres, et affichage de 1 à 2 pages à la fois
 Le bouc comique est animal bien sympathique, il demande à être manipulé avec douceur.
 
 Installation:
-Cloner le dépot git, et le compiler sous eclipse ou android studio, ou simplement télécharger le fichiers 
+Cloner le dépot git, et le compiler sous eclipse ou android studio, ou simplement télécharger le fichier comicbouc.APK et l'installer sur son téléphone.
