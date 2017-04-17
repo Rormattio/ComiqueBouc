@@ -74,7 +74,7 @@ public class ReaderActivity extends FragmentActivity{
         //On extrait le path de l'Uri renvoyé par l'intent
         livre = new Book(intent.getData().getPath());
         livre.setCurrentPage(intent.getIntExtra(CURRENT_PAGE_KEY,0));
-        Toast.makeText(this,"currentPage = "+Integer.toString(livre.currentPage),Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this,"currentPage = "+Integer.toString(livre.currentPage),Toast.LENGTH_SHORT).show();
 
 
         NUM_ITEMS = livre.tailleLivre ;
